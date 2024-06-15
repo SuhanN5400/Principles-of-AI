@@ -1,0 +1,3 @@
+my_list = ['H', 'e', 'l', 'l', 'o']
+my_string = ''.join(my_list)
+print("Converted string:", my_string)
