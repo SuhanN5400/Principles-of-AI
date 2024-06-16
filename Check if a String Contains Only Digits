@@ -1,0 +1,5 @@
+string = "12345"
+if string.isdigit():
+    print(string, "contains only digits")
+else:
+    print(string, "does not contain only digits")
