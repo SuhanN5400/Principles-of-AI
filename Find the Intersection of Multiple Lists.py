@@ -1,0 +1,7 @@
+def intersect(*lists):
+    return list(set(lists[0]).intersection(*lists))
+
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+list3 = [3, 4, 5]
+print("Intersection of lists:", intersect(list1, list2, list3))
